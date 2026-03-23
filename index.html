@@ -4,7 +4,8 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Harsh — Portfolio</title>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
     --bg: #0a0a0a;
@@ -22,7 +23,7 @@
   body {
     background: var(--bg);
     color: var(--text);
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     line-height: 1.6;
     overflow-x: hidden;
@@ -53,7 +54,7 @@
     border-bottom: 1px solid var(--border);
   }
   .nav-logo {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 26px;
     letter-spacing: 3px;
     color: var(--accent);
@@ -68,8 +69,8 @@
     text-decoration: none;
     font-size: 12px;
     letter-spacing: 2px;
-    text-transform: uppercase;
-    font-family: 'Space Mono', monospace;
+    text-transform: capitalize;
+    font-family: 'Inter', sans-serif;
     transition: color 0.2s;
   }
   .nav-links a:hover { color: var(--accent); }
@@ -88,8 +89,8 @@
     position: absolute;
     bottom: -40px;
     right: -20px;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 280px;
+    font-family: 'Inter', sans-serif;
+    font-size: 200px;
     color: rgba(232,255,71,0.03);
     pointer-events: none;
     white-space: nowrap;
@@ -110,10 +111,10 @@
   }
   .hero-tag {
     display: inline-block;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 11px;
     letter-spacing: 3px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: var(--accent);
     border: 1px solid var(--accent);
     padding: 5px 14px;
@@ -121,7 +122,7 @@
     border-radius: 2px;
   }
   .hero-name {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: clamp(72px, 9vw, 130px);
     line-height: 0.9;
     letter-spacing: 2px;
@@ -130,7 +131,7 @@
   }
   .hero-name span { color: var(--accent); }
   .hero-title {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     color: var(--muted);
     letter-spacing: 2px;
@@ -155,7 +156,7 @@
     background: var(--accent);
     color: #000;
     padding: 13px 28px;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -173,7 +174,7 @@
     background: transparent;
     color: var(--text);
     padding: 13px 28px;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 12px;
     letter-spacing: 1px;
     text-decoration: none;
@@ -227,7 +228,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 10px;
     font-weight: 700;
     line-height: 1.3;
@@ -240,11 +241,11 @@
     bottom: 32px;
     left: 50%;
     transform: translateX(-50%);
-    font-family: 'Space Mono', monospace;
+   font-family: 'Inter', sans-serif;
     font-size: 10px;
     color: var(--muted);
     letter-spacing: 3px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -261,7 +262,7 @@
   /* SECTIONS */
   section { padding: 100px 80px; }
   .section-num {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 100px;
     color: rgba(232,255,71,0.06);
     position: absolute;
@@ -272,19 +273,20 @@
     line-height: 1;
   }
   .section-label {
-    font-family: 'Space Mono', monospace;
+   font-family: 'Inter', sans-serif;
     font-size: 11px;
     letter-spacing: 4px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: var(--accent);
     margin-bottom: 12px;
   }
   .section-title {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: clamp(44px, 5vw, 68px);
     line-height: 0.95;
     margin-bottom: 52px;
     letter-spacing: 1px;
+    text-transform: capitalize;
   }
   .divider {
     height: 1px;
@@ -321,7 +323,7 @@
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 11px;
     color: var(--muted);
     text-decoration: none;
@@ -355,7 +357,7 @@
   }
   .stat-box:hover::before { transform: scaleX(1); }
   .stat-num {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 52px;
     color: var(--accent);
     line-height: 1;
@@ -364,7 +366,7 @@
   .stat-label {
     font-size: 12px;
     color: var(--muted);
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     letter-spacing: 1px;
   }
   .education-cards {
@@ -375,7 +377,7 @@
     border-bottom: 1px solid var(--border);
   }
   .edu-year {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 10px;
     color: var(--accent);
     letter-spacing: 2px;
@@ -413,11 +415,12 @@
     display: block;
   }
   .skill-cat-title {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 22px;
     letter-spacing: 2px;
     color: var(--text);
     margin-bottom: 20px;
+    text-transform: capitalize;
   }
   .skill-tags {
     display: flex;
@@ -426,7 +429,7 @@
   }
   .skill-tag {
     display: inline-block;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 11px;
     padding: 5px 12px;
     border: 1px solid var(--border);
@@ -451,7 +454,7 @@
     display: flex;
     justify-content: space-between;
     font-size: 12px;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     color: var(--muted);
   }
   .skill-bar-track {
@@ -491,7 +494,7 @@
     transform: translateY(-4px);
   }
   .project-num {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 64px;
     color: rgba(232,255,71,0.07);
     position: absolute;
@@ -500,14 +503,14 @@
     line-height: 1;
   }
   .project-period {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 10px;
     color: var(--accent);
     letter-spacing: 2px;
     margin-bottom: 14px;
   }
   .project-title {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 30px;
     letter-spacing: 1px;
     margin-bottom: 14px;
@@ -523,7 +526,7 @@
     display: inline-block;
     background: rgba(232,255,71,0.1);
     color: var(--accent);
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 11px;
     padding: 4px 10px;
     border-radius: 2px;
@@ -536,7 +539,7 @@
     margin-bottom: 24px;
   }
   .stack-tag {
-    font-family: 'Space Mono', monospace;
+   font-family: 'Inter', sans-serif;
     font-size: 10px;
     padding: 4px 10px;
     border: 1px solid var(--border);
@@ -547,7 +550,7 @@
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 11px;
     color: var(--text);
     text-decoration: none;
@@ -579,7 +582,7 @@
   }
   .cert-row:hover { border-color: rgba(232,255,71,0.3); }
   .cert-idx {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 36px;
     color: rgba(232,255,71,0.2);
     line-height: 1;
@@ -590,13 +593,13 @@
     margin-bottom: 4px;
   }
   .cert-issuer {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 11px;
     color: var(--muted);
     letter-spacing: 1px;
   }
   .cert-date {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 11px;
     color: var(--accent);
     letter-spacing: 2px;
@@ -606,7 +609,7 @@
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 11px;
     color: var(--muted);
     text-decoration: none;
@@ -654,14 +657,14 @@
     box-shadow: 0 0 0 1px var(--accent);
   }
   .exp-period {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 10px;
     color: var(--accent);
     letter-spacing: 2px;
     margin-bottom: 8px;
   }
   .exp-role {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     letter-spacing: 1px;
     margin-bottom: 4px;
@@ -670,7 +673,7 @@
     font-size: 14px;
     color: var(--muted);
     margin-bottom: 20px;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 12px;
     letter-spacing: 1px;
   }
@@ -705,7 +708,7 @@
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 11px;
     color: var(--muted);
     text-decoration: none;
@@ -725,13 +728,13 @@
     text-align: center;
   }
   .blog-placeholder p {
-    font-family: 'Space Mono', monospace;
+   font-family: 'Inter', sans-serif;
     font-size: 13px;
     color: var(--muted);
     letter-spacing: 1px;
   }
   .blog-placeholder .big-text {
-    font-family: 'Bebas Neue', sans-serif;
+   font-family: 'Inter', sans-serif;
     font-size: 64px;
     color: rgba(232,255,71,0.1);
     letter-spacing: 4px;
@@ -747,7 +750,7 @@
     gap: 80px;
   }
   .contact-tagline {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: clamp(36px, 4vw, 56px);
     line-height: 1.05;
     color: var(--text);
@@ -771,7 +774,7 @@
     color: var(--muted);
     text-decoration: none;
     transition: color 0.2s;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 12px;
   }
   .contact-item a:hover { color: var(--accent); }
@@ -816,11 +819,11 @@
     gap: 8px;
   }
   .form-field label {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 10px;
     letter-spacing: 2px;
     color: var(--muted);
-    text-transform: uppercase;
+    text-transform: capitalize;
   }
   .form-field input,
   .form-field textarea {
@@ -828,7 +831,7 @@
     border: 1px solid var(--border);
     color: var(--text);
     padding: 13px 16px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     border-radius: 2px;
     outline: none;
@@ -846,7 +849,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 11px;
     color: var(--muted);
     letter-spacing: 1px;
@@ -886,7 +889,7 @@
     margin-bottom: 2px;
   }
   .cocurr-detail {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 11px;
     color: var(--muted);
     letter-spacing: 1px;
@@ -964,7 +967,7 @@
 <section id="about">
   <div class="section-num">02</div>
   <div class="section-label">About Me</div>
-  <div class="section-title">THE PERSON<br/>BEHIND THE CODE</div>
+  <div class="section-title">The Person<br/>Behind The Code</div>
 
   <div class="about-grid">
     <div class="about-text fade-in">
@@ -972,10 +975,7 @@
         I'm <strong>Harsh</strong>, a Computer Science Engineering student at Lovely Professional University, Punjab. I'm passionate about solving real-world problems through <strong>data science, machine learning, and software development</strong>.
       </p>
       <p>
-        My academic journey began in Shahpur, Himachal Pradesh where I achieved <strong>96% in Matriculation</strong> and <strong>89.4% in Intermediate</strong>. Today I'm building projects at the intersection of algorithms, data, and user experience.
-      </p>
-      <p>
-        I believe great software is built with curiosity, adaptability, and a relentless drive to learn. Whether it's training ML models or crafting smooth game loops in Java — I bring full commitment to every project.
+        I believe great software is built with curiosity, adaptability, and a relentless drive to learn. Whether it's training ML models or crafting smooth game loops in Java. I bring full commitment to every project.
       </p>
       <div class="about-links">
         <a href="mailto:harsh787a@gmail.com" class="about-link">✉ harsh787a@gmail.com</a>
@@ -1008,19 +1008,19 @@
       <div class="stats-grid">
         <div class="stat-box">
           <div class="stat-num counter" data-target="2">0</div>
-          <div class="stat-label">PROJECTS BUILT</div>
+          <div class="stat-label">Projects Built</div>
         </div>
         <div class="stat-box">
           <div class="stat-num counter" data-target="3">0</div>
-          <div class="stat-label">CERTIFICATIONS</div>
+          <div class="stat-label">Certifications</div>
         </div>
         <div class="stat-box">
           <div class="stat-num">80<span style="font-size:26px">%</span></div>
-          <div class="stat-label">MODEL ACCURACY</div>
+          <div class="stat-label">Model Accuracy</div>
         </div>
         <div class="stat-box">
           <div class="stat-num counter" data-target="5">0</div>
-          <div class="stat-label">TECH STACKS</div>
+          <div class="stat-label">Tech Stacks</div>
         </div>
       </div>
 
@@ -1031,7 +1031,7 @@
           <div class="cocurr-icon">🏆</div>
           <div>
             <div class="cocurr-title">I2OR Young Innovator Mindset Quiz</div>
-            <div class="cocurr-detail">PARTICIPATED · OCT 2025</div>
+            <div class="cocurr-detail">Participated · OCT 2025</div>
           </div>
         </div>
       </div>
@@ -1045,44 +1045,41 @@
 <section id="skills">
   <div class="section-num">03</div>
   <div class="section-label">Skills &amp; Technologies</div>
-  <div class="section-title">WHAT I WORK<br/>WITH</div>
+  <div class="section-title">What I Work<br/>With</div>
 
   <div class="skills-layout fade-in">
     <div class="skill-category">
-      <span class="skill-cat-icon">⌨️</span>
+      <span class="skill-cat-icon"><i class="fas fa-code"></i></span>
       <div class="skill-cat-title">Languages</div>
       <div class="skill-bar-group">
-        <div class="skill-bar-item">
-          <div class="skill-bar-label"><span>Python</span><span></span></div>
-          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.85"></div></div>
-        </div>
-        <div class="skill-bar-item">
-          <div class="skill-bar-label"><span>Java</span><span></span></div>
-          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.80"></div></div>
-        </div>
-        <div class="skill-bar-item">
-          <div class="skill-bar-label"><span>C / C++</span><span></span></div>
-          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.75"></div></div>
-        </div>
-      </div>
-    </div>
+      <div class="skill-tags">
+      <span class="skill-tag">
+      <i class="fab fa-python"></i>Python
+      </span>
+      <span class="skill-tag">
+      <i class="fab fa-java"></i> Java
+      </span>
+      <span class="skill-tag">
+    <i class="fas fa-code"></i> C / C++
+  </span>
+  </div>
 
     <div class="skill-category">
-      <span class="skill-cat-icon">🗄️</span>
+      <i class="fas fa-brain"></i>
       <div class="skill-cat-title">Data &amp; ML</div>
       <div class="skill-tags">
-        <span class="skill-tag">NumPy</span>
-        <span class="skill-tag">Pandas</span>
-        <span class="skill-tag">Matplotlib</span>
-        <span class="skill-tag">Seaborn</span>
-        <span class="skill-tag">Scikit-Learn</span>
-        <span class="skill-tag">Jupyter</span>
-        <span class="skill-tag">Power BI</span>
+<span class="skill-tag advanced"><i class="fas fa-calculator"></i> NumPy</span>
+<span class="skill-tag advanced"><i class="fas fa-table"></i> Pandas</span>
+<span class="skill-tag intermediate"><i class="fas fa-chart-line"></i> Matplotlib</span>
+<span class="skill-tag intermediate"><i class="fas fa-chart-area"></i> Seaborn</span>
+<span class="skill-tag intermediate"><i class="fas fa-brain"></i> Scikit-Learn</span>
+<span class="skill-tag intermediate"><i class="fas fa-book"></i> Jupyter</span>
+<span class="skill-tag beginner"><i class="fas fa-chart-pie"></i> Power BI</span>
       </div>
     </div>
 
     <div class="skill-category">
-      <span class="skill-cat-icon">🛠️</span>
+      <i class="fas fa-tools"></i>
       <div class="skill-cat-title">Tools &amp; Platforms</div>
       <div class="skill-tags">
         <span class="skill-tag">MySQL</span>
@@ -1094,7 +1091,7 @@
     </div>
 
     <div class="skill-category">
-      <span class="skill-cat-icon">🧩</span>
+      <i class="fas fa-microchip"></i>
       <div class="skill-cat-title">CS Fundamentals</div>
       <div class="skill-tags">
         <span class="skill-tag">DBMS</span>
@@ -1106,7 +1103,7 @@
     </div>
 
     <div class="skill-category">
-      <span class="skill-cat-icon">💡</span>
+      <span class="skill-cat-icon"><i class="fas fa-user-check"></i></span>
       <div class="skill-cat-title">Soft Skills</div>
       <div class="skill-tags">
         <span class="skill-tag">Time Management</span>
@@ -1124,14 +1121,16 @@
 <section id="projects">
   <div class="section-num">04</div>
   <div class="section-label">Projects</div>
-  <div class="section-title">THINGS I'VE<br/>BUILT</div>
+  <div class="section-title">Things I've<br/>Built</div>
 
   <div class="projects-grid">
     <!-- Project 1 -->
     <div class="project-card fade-in">
       <div class="project-num">01</div>
       <div class="project-period">JUN 2025 — AUG 2025</div>
-      <div class="project-title">Brick Buster Game</div>
+      <div class="project-title">
+  <i class="fas fa-gamepad"></i> Brick Buster Game
+</div>
       <p class="project-desc">
         An interactive arcade game built with Java Swing featuring smooth paddle movement, real-time ball physics, collision detection, and multi-health bricks. Engineered with a dynamic game loop, event handling, score tracking, and optimized repaint cycles for responsive gameplay.
       </p>
@@ -1152,7 +1151,9 @@
     <div class="project-card fade-in" style="transition-delay:0.1s">
       <div class="project-num">02</div>
       <div class="project-period">MAR 2025 — MAY 2025</div>
-      <div class="project-title">Diabetes Prediction System</div>
+      <div class="project-title">
+  <i class="fas fa-heartbeat"></i> Diabetes Prediction System
+</div>
       <span class="project-highlight">80% Model Accuracy</span>
       <p class="project-desc">
         ML pipeline on the Pima Indians Diabetes dataset with preprocessing, EDA, and feature engineering. Applied logistic regression with multiple strategies, conducted statistical analysis and visual explorations to uncover feature correlations and influential predictors.
@@ -1179,7 +1180,7 @@
 <section id="certs">
   <div class="section-num">05</div>
   <div class="section-label">Certifications &amp; Courses</div>
-  <div class="section-title">PROOF OF<br/>LEARNING</div>
+  <div class="section-title">Proof of<br/>Learning</div>
 
   <div class="certs-list">
     <div class="cert-row fade-in">
@@ -1230,8 +1231,10 @@
     <div class="exp-item fade-in">
       <div class="exp-dot"></div>
       <div class="exp-period">AUG 2025 — OCT 2025</div>
-      <div class="exp-role">Data Science Intern</div>
-      <div class="exp-company">JYESTA CORPORATE ENTITY</div>
+      <div class="exp-role">
+  <i class="fas fa-briefcase"></i> Data Science Intern
+</div>
+      <div class="exp-company">Jyesta Corporate Entity</div>
       <ul class="exp-points">
         <li>Contributed to data preprocessing, feature engineering, and model development as part of a Data Science internship. Worked on ML workflows including similarity-based predictions and user-behavior analysis with a Movie Recommendation module.</li>
         <li>Improved model accuracy and delivered meaningful analytical insights, optimized algorithms, validated results, and enhanced the recommendation pipeline. Strengthened proficiency in Python, ML concepts, and performance evaluation.</li>
@@ -1257,7 +1260,7 @@
 <section id="blog">
   <div class="section-num">07</div>
   <div class="section-label">Blog &amp; Technical Writing</div>
-  <div class="section-title">SHARING<br/>KNOWLEDGE</div>
+  <div class="section-title">Sharing<br/>Knowledge</div>
   <div class="blog-placeholder fade-in">
     <span class="big-text">COMING SOON</span>
     <p>Technical articles and write-ups are on their way.<br/>Check back soon for posts on ML, Java, and data science.</p>
@@ -1270,7 +1273,7 @@
 <section id="contact">
   <div class="section-num">08</div>
   <div class="section-label">Contact</div>
-  <div class="section-title">LET'S BUILD<br/>SOMETHING</div>
+  <div class="section-title">Let's Build<br/>Something</div>
 
   <div class="contact-layout">
     <div class="contact-left fade-in">
