@@ -925,9 +925,13 @@
     <li><a href="#experience">Experience</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
-  <a class="btn-primary" href="https://drive.google.com/file/d/1IBu7CAKB1xXPushCx32Px69jCXkU8Czi/view?usp=sharing" id="1IBu7CAKB1xXPushCx32Px69jCXkU8Czi" style="font-size:11px; padding:10px 20px;">
-    ↓ Download CV
-  </a>
+  <a class="btn-primary"
+   id="cvDownloadBtn"
+   href="https://drive.google.com/uc?export=download&id=1IBu7CAKB1xXPushCx32Px69jCXkU8Czi"
+   target="_blank"
+   style="font-size:11px; padding:10px 20px;">
+  ↓ Download CV
+</a>
 </nav>
 
 <!-- HERO -->
@@ -1401,10 +1405,7 @@ const counterObserver = new IntersectionObserver((entries) => {
 document.querySelectorAll('.counter').forEach(el => counterObserver.observe(el));
 
 // CV download
-document.getElementById('cvDownloadBtn').addEventListener('click', function(e) {
-  e.preventDefault();
-  alert('CV download: Please replace the href with your actual CV file link (e.g., Google Drive direct download link).');
-});
+
 
 function handleFormSubmit() {
   alert('Message sent! (Connect this to a backend or Formspree for real submissions.)');
